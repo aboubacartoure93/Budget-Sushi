@@ -38,11 +38,14 @@ a:hover {
     color:black;
 }
 
-
+footer{
+	text-align: center;
+	margin-top:5px;
+}
 
 nav>ul>li{
 	list-style-type: none;
-	font-size: 30px;
+	font-size: 20px;
 	display: inline-block;	margin:25px;
 }
 

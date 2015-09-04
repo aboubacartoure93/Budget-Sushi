@@ -7,6 +7,14 @@ erb :index
 	
 end
 
+get '/about' do
+	erb :about
+end
+
+get '/menu' do
+	erb :menu
+end
+
 post '/email' do
 email = params["email"]
 sender = params["name"]
